@@ -13,7 +13,7 @@ export default function Header() {
                 className="logo"
             />
             <h1 className="neon-title">404NotInLove</h1>
-            <p className="typing-quote">"Find love in the glitch of time!"</p>
+            <p className="typing-quote">&quot;Find love in the glitch of time!&quot;</p>
         </header>
     );
 }

@@ -8,5 +8,5 @@ const quotes = [
 export default function Quotes() {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-    return <p className="neon-text">"{randomQuote}"</p>;
+    return <p className="neon-text">&quot;{randomQuote}&quot;</p>;
 }
